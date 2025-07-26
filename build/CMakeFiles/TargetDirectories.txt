@@ -1,3 +1,0 @@
-/home/bogdanarch/Documents/SpaceY/build/CMakeFiles/spacey.dir
-/home/bogdanarch/Documents/SpaceY/build/CMakeFiles/edit_cache.dir
-/home/bogdanarch/Documents/SpaceY/build/CMakeFiles/rebuild_cache.dir
