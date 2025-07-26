@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/bogdanarch/Documents/spacey/build/cmake_install.cmake"
+		"/home/bogdanarch/Documents/SpaceY/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

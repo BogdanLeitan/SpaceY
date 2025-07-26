@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bogdanarch/Documents/spacey/src/input.c" "CMakeFiles/spacey.dir/src/input.c.o" "gcc" "CMakeFiles/spacey.dir/src/input.c.o.d"
-  "/home/bogdanarch/Documents/spacey/src/main.c" "CMakeFiles/spacey.dir/src/main.c.o" "gcc" "CMakeFiles/spacey.dir/src/main.c.o.d"
+  "/home/bogdanarch/Documents/SpaceY/src/input.c" "CMakeFiles/spacey.dir/src/input.c.o" "gcc" "CMakeFiles/spacey.dir/src/input.c.o.d"
+  "/home/bogdanarch/Documents/SpaceY/src/main.c" "CMakeFiles/spacey.dir/src/main.c.o" "gcc" "CMakeFiles/spacey.dir/src/main.c.o.d"
   "" "spacey" "gcc" "CMakeFiles/spacey.dir/link.d"
   )
 

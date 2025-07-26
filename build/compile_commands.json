@@ -1,14 +1,14 @@
 [
 {
-  "directory": "/home/bogdanarch/Documents/spacey/build",
-  "command": "/usr/bin/gcc  -isystem /usr/include/SDL2 -g -std=gnu99 -o CMakeFiles/spacey.dir/src/input.c.o -c /home/bogdanarch/Documents/spacey/src/input.c",
-  "file": "/home/bogdanarch/Documents/spacey/src/input.c",
+  "directory": "/home/bogdanarch/Documents/SpaceY/build",
+  "command": "/usr/bin/gcc  -isystem /usr/include/SDL2 -g -std=gnu99 -o CMakeFiles/spacey.dir/src/input.c.o -c /home/bogdanarch/Documents/SpaceY/src/input.c",
+  "file": "/home/bogdanarch/Documents/SpaceY/src/input.c",
   "output": "CMakeFiles/spacey.dir/src/input.c.o"
 },
 {
-  "directory": "/home/bogdanarch/Documents/spacey/build",
-  "command": "/usr/bin/gcc  -isystem /usr/include/SDL2 -g -std=gnu99 -o CMakeFiles/spacey.dir/src/main.c.o -c /home/bogdanarch/Documents/spacey/src/main.c",
-  "file": "/home/bogdanarch/Documents/spacey/src/main.c",
+  "directory": "/home/bogdanarch/Documents/SpaceY/build",
+  "command": "/usr/bin/gcc  -isystem /usr/include/SDL2 -g -std=gnu99 -o CMakeFiles/spacey.dir/src/main.c.o -c /home/bogdanarch/Documents/SpaceY/src/main.c",
+  "file": "/home/bogdanarch/Documents/SpaceY/src/main.c",
   "output": "CMakeFiles/spacey.dir/src/main.c.o"
 }
 ]

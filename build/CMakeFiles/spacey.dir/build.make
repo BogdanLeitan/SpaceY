@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bogdanarch/Documents/spacey
+CMAKE_SOURCE_DIR = /home/bogdanarch/Documents/SpaceY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bogdanarch/Documents/spacey/build
+CMAKE_BINARY_DIR = /home/bogdanarch/Documents/SpaceY/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/spacey.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/spacey.dir/codegen:
 .PHONY : CMakeFiles/spacey.dir/codegen
 
 CMakeFiles/spacey.dir/src/input.c.o: CMakeFiles/spacey.dir/flags.make
-CMakeFiles/spacey.dir/src/input.c.o: /home/bogdanarch/Documents/spacey/src/input.c
+CMakeFiles/spacey.dir/src/input.c.o: /home/bogdanarch/Documents/SpaceY/src/input.c
 CMakeFiles/spacey.dir/src/input.c.o: CMakeFiles/spacey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bogdanarch/Documents/spacey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/spacey.dir/src/input.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/spacey.dir/src/input.c.o -MF CMakeFiles/spacey.dir/src/input.c.o.d -o CMakeFiles/spacey.dir/src/input.c.o -c /home/bogdanarch/Documents/spacey/src/input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bogdanarch/Documents/SpaceY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/spacey.dir/src/input.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/spacey.dir/src/input.c.o -MF CMakeFiles/spacey.dir/src/input.c.o.d -o CMakeFiles/spacey.dir/src/input.c.o -c /home/bogdanarch/Documents/SpaceY/src/input.c
 
 CMakeFiles/spacey.dir/src/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/spacey.dir/src/input.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bogdanarch/Documents/spacey/src/input.c > CMakeFiles/spacey.dir/src/input.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bogdanarch/Documents/SpaceY/src/input.c > CMakeFiles/spacey.dir/src/input.c.i
 
 CMakeFiles/spacey.dir/src/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/spacey.dir/src/input.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bogdanarch/Documents/spacey/src/input.c -o CMakeFiles/spacey.dir/src/input.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bogdanarch/Documents/SpaceY/src/input.c -o CMakeFiles/spacey.dir/src/input.c.s
 
 CMakeFiles/spacey.dir/src/main.c.o: CMakeFiles/spacey.dir/flags.make
-CMakeFiles/spacey.dir/src/main.c.o: /home/bogdanarch/Documents/spacey/src/main.c
+CMakeFiles/spacey.dir/src/main.c.o: /home/bogdanarch/Documents/SpaceY/src/main.c
 CMakeFiles/spacey.dir/src/main.c.o: CMakeFiles/spacey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bogdanarch/Documents/spacey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/spacey.dir/src/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/spacey.dir/src/main.c.o -MF CMakeFiles/spacey.dir/src/main.c.o.d -o CMakeFiles/spacey.dir/src/main.c.o -c /home/bogdanarch/Documents/spacey/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bogdanarch/Documents/SpaceY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/spacey.dir/src/main.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/spacey.dir/src/main.c.o -MF CMakeFiles/spacey.dir/src/main.c.o.d -o CMakeFiles/spacey.dir/src/main.c.o -c /home/bogdanarch/Documents/SpaceY/src/main.c
 
 CMakeFiles/spacey.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/spacey.dir/src/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bogdanarch/Documents/spacey/src/main.c > CMakeFiles/spacey.dir/src/main.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bogdanarch/Documents/SpaceY/src/main.c > CMakeFiles/spacey.dir/src/main.c.i
 
 CMakeFiles/spacey.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/spacey.dir/src/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bogdanarch/Documents/spacey/src/main.c -o CMakeFiles/spacey.dir/src/main.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bogdanarch/Documents/SpaceY/src/main.c -o CMakeFiles/spacey.dir/src/main.c.s
 
 # Object files for target spacey
 spacey_OBJECTS = \
@@ -116,7 +116,7 @@ spacey: /usr/lib/libSDL2-2.0.so.0.3200.56
 spacey: /usr/lib/libSDL2_image.so
 spacey: /usr/lib/libSDL2_ttf.so
 spacey: CMakeFiles/spacey.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bogdanarch/Documents/spacey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable spacey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bogdanarch/Documents/SpaceY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable spacey"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spacey.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/spacey.dir/clean:
 .PHONY : CMakeFiles/spacey.dir/clean
 
 CMakeFiles/spacey.dir/depend:
-	cd /home/bogdanarch/Documents/spacey/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bogdanarch/Documents/spacey /home/bogdanarch/Documents/spacey /home/bogdanarch/Documents/spacey/build /home/bogdanarch/Documents/spacey/build /home/bogdanarch/Documents/spacey/build/CMakeFiles/spacey.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/bogdanarch/Documents/SpaceY/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bogdanarch/Documents/SpaceY /home/bogdanarch/Documents/SpaceY /home/bogdanarch/Documents/SpaceY/build /home/bogdanarch/Documents/SpaceY/build /home/bogdanarch/Documents/SpaceY/build/CMakeFiles/spacey.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/spacey.dir/depend
 

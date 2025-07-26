@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bogdanarch/Documents/spacey
+CMAKE_SOURCE_DIR = /home/bogdanarch/Documents/SpaceY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bogdanarch/Documents/spacey/build
+CMAKE_BINARY_DIR = /home/bogdanarch/Documents/SpaceY/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/spacey.dir/clean
 CMakeFiles/spacey.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spacey.dir/build.make CMakeFiles/spacey.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spacey.dir/build.make CMakeFiles/spacey.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bogdanarch/Documents/spacey/build/CMakeFiles --progress-num=1,2,3 "Built target spacey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bogdanarch/Documents/SpaceY/build/CMakeFiles --progress-num=1,2,3 "Built target spacey"
 .PHONY : CMakeFiles/spacey.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/spacey.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdanarch/Documents/spacey/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdanarch/Documents/SpaceY/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/spacey.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdanarch/Documents/spacey/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdanarch/Documents/SpaceY/build/CMakeFiles 0
 .PHONY : CMakeFiles/spacey.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ spacey: CMakeFiles/spacey.dir/rule
 # codegen rule for target.
 CMakeFiles/spacey.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spacey.dir/build.make CMakeFiles/spacey.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bogdanarch/Documents/spacey/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target spacey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bogdanarch/Documents/SpaceY/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target spacey"
 .PHONY : CMakeFiles/spacey.dir/codegen
 
 # clean rule for target.
